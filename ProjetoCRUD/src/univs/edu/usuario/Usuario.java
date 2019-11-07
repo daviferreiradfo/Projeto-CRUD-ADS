@@ -8,7 +8,7 @@ import javax.persistence.Column;
 
 @Entity
 public class Usuario {
-    
+     
     @Id
     @GeneratedValue
     @Column(length = 100, nullable = false)
