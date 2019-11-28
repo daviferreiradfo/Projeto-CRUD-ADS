@@ -29,7 +29,7 @@ public class UsuarioTableModel extends AbstractTableModel {
         switch (columnIndex) {
             case 0:
                 return usuario.getIdUsuario();
-            case 1: 
+            case 1:
                 return usuario.getNomeUsuario();
             case 2:
                 return usuario.getLogin();
